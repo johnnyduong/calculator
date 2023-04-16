@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './layout.css';
 import Output from './output';
 
-const Layout = (props) => {
+const Layout = props => {
     let [input, setInput] = useState('0');
     let [result, setResult] = useState('');
 

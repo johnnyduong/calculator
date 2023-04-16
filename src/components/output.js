@@ -1,7 +1,7 @@
 import React from 'react';
 import OutputRow from './outputRow';
 
-const Output = (props) => {
+const Output = props => {
     return(
         <div>
             <OutputRow value={props.answer} textSize={{fontSize:'20px'}} />
